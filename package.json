@@ -1,0 +1,12 @@
+{
+  "name": "nightwatch-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "nightwatch --conf nightwatch.conf.js --env chrome"
+  },
+  "devDependencies": {
+    "chromedriver": "^2.37.0",
+    "nightwatch": "^0.9.20",
+    "selenium-server": "^3.11.0"
+  }
+}
